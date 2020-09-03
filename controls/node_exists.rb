@@ -21,7 +21,6 @@ control 'core-plans-node6-exists' do
   [
     "node",
     "npm",
-    "npx",
   ].each do |binary_name|
     command_full_path = File.join(plan_installation_directory.stdout.strip, "bin", binary_name)
     describe file(command_full_path) do
