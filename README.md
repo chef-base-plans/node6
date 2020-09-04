@@ -38,7 +38,6 @@ will add the following binaries to the PATH:
 
 * /bin/node
 * /bin/npm
-* /bin/npx
 
 For example:
 

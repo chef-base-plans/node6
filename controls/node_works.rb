@@ -20,7 +20,7 @@ control 'core-plans-node6-works' do
   end
   
   expected_node_version = plan_installation_directory.stdout.split("/")[5]
-  expected_npm_version = input('expected_npm_version', value: '3.10.10')
+  expected_npm_version = input('expected_npm_version', value: '6.13.4')
   {
     "node" => { pattern: "v#{expected_node_version}" },
     "npm" => { pattern: "#{expected_npm_version}" },
@@ -30,7 +30,6 @@ control 'core-plans-node6-works' do
       its('exit_status') { should eq 0 }
       its('stdout') { should_not be_empty }
       its('stdout') { should match version[:pattern] }
-      its('stderr') { should be_empty }
     end
   end
 end
