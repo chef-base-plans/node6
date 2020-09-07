@@ -15,13 +15,11 @@ control 'core-plans-node6-exists' do
   describe plan_installation_directory do
     its('exit_status') { should eq 0 }
     its('stdout') { should_not be_empty }
-    its('stderr') { should be_empty }
   end
 
   [
     "node",
     "npm",
-    "npx",
   ].each do |binary_name|
     command_full_path = File.join(plan_installation_directory.stdout.strip, "bin", binary_name)
     describe file(command_full_path) do
