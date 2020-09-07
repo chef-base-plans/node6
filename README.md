@@ -45,16 +45,13 @@ For example:
 $ hab pkg install core/node6 --binlink
 » Installing core/node6
 ☁ Determining latest version of core/node6 in the 'stable' channel
-→ Found newer installed version (core/node/12.14.1/20200615164709) than remote version (core/node/12.14.1/20200310024011)
-→ Using core/node/12.14.1/20200615164709
-★ Install of core/node/12.14.1/20200615164709 complete with 0 new packages installed.
-» Binlinking npx from core/node/12.14.1/20200615164709 into /bin
-★ Binlinked npx from core/node/12.14.1/20200615164709 to /bin/npx
-» Binlinking npm from core/node/12.14.1/20200615164709 into /bin
-★ Binlinked npm from core/node/12.14.1/20200615164709 to /bin/npm
-» Binlinking node from core/node/12.14.1/20200615164709 into /bin
-★ Binlinked node from core/node/12.14.1/20200615164709 to /bin/node
-[29][default:/src/node:0]# 
+☛ Verifying core/node6/6.14.4/20200403180216
+✓ Installed core/node6/6.14.4/20200403180216
+★ Install of core/node6/6.14.4/20200403180216 complete with 7 new packages installed.
+» Binlinking npm from core/node6/6.14.4/20200403180216 into /bin
+★ Binlinked npm from core/node6/6.14.4/20200403180216 to /bin/npm
+» Binlinking node from core/node6/6.14.4/20200403180216 into /bin
+★ Binlinked node from core/node6/6.14.4/20200403180216 to /bin/node
 ```
 
 #### Using an example binary
