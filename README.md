@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_apis/build/status/chef-base-plans.node6?repoName=chef-base-plans%2Fnode6&branchName=refs%2Fpull%2F1%2Fmerge)](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_build/latest?definitionId=244&repoName=chef-base-plans%2Fnode6&branchName=refs%2Fpull%2F1%2Fmerge)
+[![Build Status](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_apis/build/status/chef-base-plans.node6?repoName=chef-base-plans&branchName=master)](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_build/latest?definitionId=244&repoName=chef-base-plans&branchName=master)
 
 # node6
 
